@@ -25,4 +25,4 @@ Per ora stiamo studiando solo C, però in futuro, a seconda del progetto o degli
 
 ## 🎯 Scopo
 
-L'obiettivo di questa repository è quello di organizzare e conservare il codice che scrivo per le attività scolastiche. Può anche essere utile come riferimento per future revisioni e miglioramenti del mio lavoro. 📑
+L'obiettivo di questa repository è quello di organizzare e conservare il codice che scrivo per le attività scolastiche. Può anche essere utile come riferimento per future revisioni e miglioramenti del mio lavoro! 📑
