@@ -31,4 +31,4 @@ L'obiettivo di questa repository è quello di organizzare e conservare il codice
 
 - Per aprire i file dei [Diagrammi di flusso](./Informatica/Diagrammi%20di%20flusso) 🟥🔷, è probabile sia necessario installare Flowgorithm (il programma con cui ho svolto gli esercizi).
    
-  Quindi se ci tieni a visualizzare ed a eseguire i diagrammi di flusso installa [Flowgorithm](http://www.flowgorithm.org/download/) ✌️.
+  Quindi se ci tieni a visualizzare ed a eseguire i diagrammi di flusso installa [Flowgorithm](http://www.flowgorithm.org/download/). Infine scarica il file che desideri e aprilo con Flowgorithm!✌️
