@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Iterazione"/>
+        <attribute name="authors" value="Alunno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 12:27:15 "/>
+        <attribute name="created" value="QWx1bm5vO0lORjEtMDI7MjAyNC0wOS0yNjsiMTI6MDQ6MTAgIjsyMjIy"/>
+        <attribute name="edited" value="QWx1bm5vO0lORjEtMDI7MjAyNC0wOS0yNjsiMTI6Mjc6MTUgIjsxOzIzNDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="n" type="Real" array="False" size=""/>
+            <assign variable="n" expression="0"/>
+            <input variable="a"/>
+            <while expression="n &lt; 10">
+                <assign variable="n" expression="n + 1"/>
+                <assign variable="a" expression="a + 2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

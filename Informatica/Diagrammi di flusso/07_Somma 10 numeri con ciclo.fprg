@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Somma 10 numeri con ciclo"/>
+        <attribute name="authors" value="Riccardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-26 02:00:55 "/>
+        <attribute name="created" value="UmljY2FyZG87Q09NUFVURVI7MjAyNC0wOS0yNjsiMDE6NDA6NTcgIjsyNjI3"/>
+        <attribute name="edited" value="UmljY2FyZG87Q09NUFVURVI7MjAyNC0wOS0yNjsiMDI6MDA6NTUgIjsyOzI3MzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nr" type="Real" array="False" size=""/>
+            <assign variable="Nr" expression="0"/>
+            <declare name="N" type="Real" array="False" size=""/>
+            <declare name="Som" type="Integer" array="False" size=""/>
+            <assign variable="Som" expression="0"/>
+            <while expression="Nr &lt; 10">
+                <input variable="N"/>
+                <assign variable="Som" expression="Som + N"/>
+                <assign variable="Nr" expression="Nr + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

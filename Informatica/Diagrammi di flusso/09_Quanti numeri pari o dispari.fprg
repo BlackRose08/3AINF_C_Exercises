@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Quanti numeri pari o dispari"/>
+        <attribute name="authors" value="Alunno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 09:12:37 "/>
+        <attribute name="created" value="QWx1bm5vO0lORjEtMDI7MjAyNC0xMC0wODsiMDg6NTU6NDAgIjsyMjI4"/>
+        <attribute name="edited" value="QWx1bm5vO0lORjEtMDI7MjAyNC0xMC0wODsiMDk6MTI6MzcgIjsxOzIzMzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="contatore" type="Integer" array="False" size=""/>
+            <declare name="contatorep" type="Integer" array="False" size=""/>
+            <declare name="contatored" type="Integer" array="False" size=""/>
+            <assign variable="contatore" expression="0"/>
+            <assign variable="contatorep" expression="0"/>
+            <assign variable="contatored" expression="0"/>
+            <while expression="contatore &lt; 10">
+                <input variable="n"/>
+                <assign variable="contatore" expression="contatore + 1"/>
+                <if expression="n%2 == 0">
+                    <then>
+                        <assign variable="contatorep" expression="contatorep + 1"/>
+                    </then>
+                    <else>
+                        <assign variable="contatored" expression="contatored + 1"/>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;Hai inserito &quot; &amp;contatorep&amp; &quot; numeri pari&quot;" newline="True"/>
+            <output expression="&quot;Hai inserito &quot; &amp;contatored&amp; &quot; numeri dispari&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
