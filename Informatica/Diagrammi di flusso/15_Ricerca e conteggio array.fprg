@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ricerca e conteggio array"/>
+        <attribute name="authors" value="Alunno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-05 08:40:12 "/>
+        <attribute name="created" value="QWx1bm5vO0lORjEtMDI7MjAyNC0xMS0wNTsiMDg6MjA6NTggIjsyMjI3"/>
+        <attribute name="edited" value="QWx1bm5vO0lORjEtMDI7MjAyNC0xMS0wNTsiMDg6NDA6MTIgIjsxOzIzMjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="True" size="10"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="cont" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <assign variable="cont" expression="0"/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <output expression="&quot;Inserisci un valore&quot;" newline="True"/>
+                <input variable="a [i]"/>
+            </for>
+            <assign variable="i" expression="0"/>
+            <output expression="&quot;Inserisci numero da trovare&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="i &lt; 10">
+                <if expression="n == a[i]">
+                    <then>
+                        <assign variable="cont" expression="cont + 1"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="i" expression="i + 1"/>
+            </while>
+            <if expression="cont &gt; 0">
+                <then>
+                    <output expression="&quot;Numero &quot; &amp;n&amp; &quot; trovato &quot; &amp;cont&amp; &quot; volta/e&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Numero non trovato&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

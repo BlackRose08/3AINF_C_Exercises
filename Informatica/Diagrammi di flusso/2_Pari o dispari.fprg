@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Pari o dispari"/>
+        <attribute name="authors" value="Riccardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-17 12:41:17 "/>
+        <attribute name="created" value="UmljY2FyZG87Q09NUFVURVI7MjAyNC0wOS0xNzsiMTI6MTY6NTIgIjsyNjI3"/>
+        <attribute name="edited" value="UmljY2FyZG87Q09NUFVURVI7MjAyNC0wOS0xNzsiMTI6NDE6MTcgIjsxOzI3MzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Num" type="Integer" array="False" size=""/>
+            <output expression="&quot;Scrivi il tuo numero: &quot;" newline="True"/>
+            <input variable="Num"/>
+            <declare name="Resto" type="Integer" array="False" size=""/>
+            <assign variable="Resto" expression="Num%2"/>
+            <if expression="Num%2 == 0">
+                <then>
+                    <output expression="&quot;Il tuo numero &#232; pari&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Il tuo numero &#232; dispari&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

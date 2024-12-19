@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Numero maggiore di 10"/>
+        <attribute name="authors" value="Alunno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 08:42:54 "/>
+        <attribute name="created" value="QWx1bm5vO0lORjEtMDI7MjAyNC0xMC0wODsiMDg6MjQ6MTEgIjsyMjIy"/>
+        <attribute name="edited" value="QWx1bm5vO0lORjEtMDI7MjAyNC0xMC0wODsiMDg6NDI6NTQgIjsyOzIzMzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci un numero&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="n&lt;=10">
+                <if expression="n = 10">
+                    <then>
+                        <output expression="&quot;Il numero e' uguale a 10&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Il numero &quot; &amp;n&amp; &quot; e' minore di 10&quot;" newline="True"/>
+                    </else>
+                </if>
+                <input variable="n"/>
+            </while>
+            <output expression="&quot;Il numero &quot; &amp;n&amp; &quot; e' maggiore di 10&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
